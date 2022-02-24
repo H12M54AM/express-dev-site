@@ -1,0 +1,20 @@
+{
+  "name": "express-dev-site",
+  "version": "1.0.0",
+  "description": "I want to work with Express in Web development, however, I will first learn how to use it and show my works as well as incredably detailed documentation in the README file for future references and to help someone going through the same thing as me",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/H12M54AM/express-dev-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/H12M54AM/express-dev-site/issues"
+  },
+  "homepage": "https://github.com/H12M54AM/express-dev-site#readme"
+}
