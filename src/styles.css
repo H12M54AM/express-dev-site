@@ -18,22 +18,14 @@ h1 {
     font-family: 'Roboto', sans-serif;
 }
 
-ul li a {
-    text-decoration: none;
-    color: black;
-    margin-right: 40px;
-    width: 100%;
-}
-ul li {
-    list-style: none;
-    vertical-align: middle;
-}
 
 .pages {
     display: flex;
     justify-content: center;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 5px;
 }
 .main__pages {
     display: flex;
@@ -48,9 +40,24 @@ ul li {
     border-radius: 10px;
     cursor: pointer;
 }
+.contact ul li a:hover {
+    padding: 10px 30px;
+
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+    margin-right: 40px;
+    width: 100%;
+}
+ul li {
+    list-style: none;
+    vertical-align: middle;
+}
 
 ul li a:hover {
-    transition: ease-out 0.5s;
+    transition: 0.5s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     background-color: aqua;
     padding: 5px 15px;
     border-radius: 5px;
